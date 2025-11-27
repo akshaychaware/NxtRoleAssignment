@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <label>Name:</label><br>
+        <input type="text" name="name" value="{{ students.name|default:'' }}" ><br><br>
+
+        <label>Roll No:</label><br>
+        <input type="number" name="roll_no" value="{{ students.roll_no|default:'' }}" ><br><br>
+
+        <label>Class:</label><br>
+        <input type="text" name="student_class" value="{{ students.student_class|default:'' }}" ><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" value="{{ students.email|default:'' }}" ><br><br>
+
+        <button type="submit">Add Student</button>
+    </form>
+
+    <br>
+    <a href="{% url 'studentlist' %}">View Student List</a>
+</body>
+</html>
