@@ -1,7 +1,7 @@
-person token access:
-A Personal Access Token is a secure GitHub-generated token 
-that lets you access repositories via API or Git commands,without using your password 
-
+personal token access:
+	A Personal Access Token is a secure GitHub-generated token 
+	that lets you access repositories via API or Git commands,without using your password 
+	why use :
 	Secure access – if you have token you don’t share your GitHub password.
 	Access control – token can be add limitations for token
 
