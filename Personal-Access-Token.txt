@@ -23,7 +23,12 @@ Step 3: Configure Token
 	Scopes:
 		To access private repo - repo (full access to private and public repos)
 		Other scopes optional based on requirement
+	Repository access - Only selected repositories
+	Select -  General-Instruction
 
+	Permissions:
+	    Contents → Read	
+	    Metadata → Read
 Step 4: Generate Token
 	Click Generate token
 	GitHub shows the token once only
