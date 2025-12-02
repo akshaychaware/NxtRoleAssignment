@@ -1,0 +1,31 @@
+person token access:
+A Personal Access Token is a secure GitHub-generated token 
+that lets you access repositories via API or Git commands,without using your password 
+
+	Secure access – if you have token you don’t share your GitHub password.
+	Access control – token can be add limitations for token
+
+steps of generating access token:
+
+Step 1: Login to GitHub
+	Click your profile icon
+	Click Settings
+
+step 2:Go to Developer Settings
+	Click Developer settings
+	Click Personal access tokens
+	Choose Tokens (classic)
+	Click Generate new token
+
+Step 3: Configure Token
+	Name:  Private Repo Access
+	Expiration: Choose 30 days, 60 days, or custom
+	Scopes:
+		To access private repo - repo (full access to private and public repos)
+		Other scopes optional based on requirement
+
+Step 4: Generate Token
+	Click Generate token
+	GitHub shows the token once only
+
+Now you can access private repositories securely.
